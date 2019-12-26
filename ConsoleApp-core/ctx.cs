@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_core
 {
-    class ctx :DbContext
+    public class ctx :DbContext
 
     {
         public DbSet<Person> Personen { get; set; }

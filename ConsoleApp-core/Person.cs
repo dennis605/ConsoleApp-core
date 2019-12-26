@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_core
 {
-    class Person
+    public class Person
     {
        // public Person()
         
@@ -20,7 +20,7 @@ namespace ConsoleApp_core
         // Navigation Property für Event
 
         //public ICollection<Event> Events { get; set; }
-        public List<PersonenEvent> PersonenEvents { get; set; }
+        public virtual List<PersonenEvent> PersonenEvents { get; set; }
         }
     }
 

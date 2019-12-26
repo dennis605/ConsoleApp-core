@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_core
 {
-    class Event
+    public class Event
     {
-        private int EventId { get; set; }
+        public int EventId { get; set; }
         private string EventName { get; set; }
 
         private DateTime EventDatum { get; set; }
@@ -21,7 +21,7 @@ namespace ConsoleApp_core
 
         // Navigation Property für Person
         //public ICollection<Person> Persons { get; set; }
-        public List<PersonenEvent> PersonenEvents { get; set; }
+        public virtual List<PersonenEvent> PersonenEvents { get; set; }
 
     }
 }

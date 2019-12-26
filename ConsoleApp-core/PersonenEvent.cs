@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp_core
 {
-    class PersonenEvent
+    public class PersonenEvent
     {
+        
         public int EventId { get; set; }
         public Event Event { get; set; }
 
