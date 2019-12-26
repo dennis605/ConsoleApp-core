@@ -17,6 +17,9 @@ namespace ConsoleApp_core
         public string Nachname { get; set; }
         public string Rolle { get; set; }
 
-        public ICollection<Event> Events { get; set; }
+        // Navigation Property für Event
+
+        //public ICollection<Event> Events { get; set; }
+        public List<PersonenEvent> PersonenEvents { get; set; }
     }
 }

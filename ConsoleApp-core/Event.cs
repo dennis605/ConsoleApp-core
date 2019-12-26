@@ -8,18 +8,20 @@ namespace ConsoleApp_core
 {
     class Event
     {
-        private int eventId { get; set; }
-        private string eventName { get; set; }
+        private int EventId { get; set; }
+        private string EventName { get; set; }
 
-        private DateTime eventDatum { get; set; }
-        private DateTime eventBeginn { get; set; }
+        private DateTime EventDatum { get; set; }
+        private DateTime EventBeginn { get; set; }
         public DateTime EventEnd { get; set; }
         public int EventVorlauf { get; set; }
         public string EventOrt { get; set; }
         public string EventBeschreibung { get; set; }
         public string EventInfo { get; set; }
 
+        // Navigation Property für Person
+        //public ICollection<Person> Persons { get; set; }
+        public List<PersonenEvent> PersonenEvents { get; set; }
 
-        public ICollection<Person> Persons { get; set; }
     }
 }

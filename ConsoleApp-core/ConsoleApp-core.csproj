@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Event.cs" />
     <Compile Include="Person.cs" />
+    <Compile Include="PersonenEvent.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
