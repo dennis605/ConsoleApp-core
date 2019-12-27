@@ -10,7 +10,7 @@ namespace ConsoleApp_core
     {
         static void Main(string[] args)
         {
-            using(ctx db = new ctx())
+            using(Context db = new Context())
             {
                 Person p1 = new Person();
                 p1.Vorname = "Dennis";
