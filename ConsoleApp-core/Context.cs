@@ -12,6 +12,11 @@ namespace ConsoleApp_core
     {
         public DbSet<Person> Personen { get; set; }
         public DbSet <Event> Events { get; set; }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            //base.OnConfiguring(optionsBuilder);
+            optionsBuilder.UseSqlite(@"Data Source=.\BTPlan.db");        }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
 
