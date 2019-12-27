@@ -289,6 +289,10 @@
     <Compile Include="Migrations\20191227205514_Initial.designer.cs">
       <DependentUpon>20191227205514_Initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\20191227211006_Standard1.cs" />
+    <Compile Include="Migrations\20191227211006_Standard1.designer.cs">
+      <DependentUpon>20191227211006_Standard1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\ContextModelSnapshot.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonenEvent.cs" />

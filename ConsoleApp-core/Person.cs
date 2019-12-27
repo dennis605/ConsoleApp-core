@@ -8,10 +8,10 @@ namespace ConsoleApp_core
 {
     public class Person
     {
-       // public Person()
+        public Person() { }
         
-       //     this.Events = new HashSet<Event>();
-       // }
+        
+
         public int PersonId { get; set; }
         public string Vorname { get; set; }
         public string Nachname { get; set; }
